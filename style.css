@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+.tc_home {
+    background-color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.oval {
+    position: absolute;
+    top: 0;
+    width: 17.7vw;
+    height: 15vw;
+    opacity: 0.04;
+    background-color: #388af7;
+    border-bottom-right-radius: 100%;
+    z-index: -1;
+}
+
+.rectangle {
+    position: absolute;
+    top: 0;
+    left: 55.88vw;
+    width: 44.12vw;
+    height: 64.5vw;
+    background-color: #f7faff;
+    z-index: -1;
+}
+
+
+/*========== Navbar ===========*/
+nav {
+    margin-left: 10.9vw;
+    margin-top: 1.9vw;
+    margin-right: 10.2vw;
+    margin-bottom: 1.9vw;
+}
+
+
+.navbar-light .navbar-nav .nav-link {  
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.87px;
+    color: #bfc5d2;
+    margin-left: 2.7vw;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-light .navbar-nav .nav-item.contact_us {
+    border-radius: 10.7px;
+    border: solid 1.3px #7762d1;
+}
+
+.navbar-light .navbar-nav .nav-link.contact_us {  
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.49px;
+    color: #388af7;
+}
+
+.group-11 {
+    width: 228px;
+    height: 81px;
+    object-fit: contain;  
+}
+
+
+/***** page ******/
+.content {
+    height: 100vh;
+    z-index: 1;
+}
+
+.group-2 {
+    object-fit: contain;
+}
+
+.square {
+    width: 12px;
+    height: 12px;
+    opacity: 0.17;
+    background-color: #388af7;
+}
