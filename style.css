@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
+/*======================= Body and background shapes ====================*/
 .tc_home {
     background-color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -28,15 +29,31 @@
     z-index: -1;
 }
 
+.squares {
+    position: absolute;
+    top: 27vw;
+    z-index: -1;
+}
 
-/*========== Navbar ===========*/
+.square {
+    width: 12px;
+    height: 12px;
+    opacity: 0.17;
+    background-color: #388af7;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*========================= Navbar =============================*/
 nav {
     margin-left: 10.9vw;
     margin-top: 1.9vw;
     margin-right: 10.2vw;
     margin-bottom: 1.9vw;
 }
-
 
 .navbar-light .navbar-nav .nav-link {  
     font-size: 20px;
@@ -75,20 +92,121 @@ nav {
     object-fit: contain;  
 }
 
+@media(max-width: 768px) {
+    nav {
+        margin-left: 4vw;
+        margin-top: 1vw;
+        margin-right: 2vw;
+        margin-bottom: 1vw;
+    }
 
-/***** page ******/
-.content {
-    height: 100vh;
-    z-index: 1;
+    .navbar-light .navbar-nav .nav-link {  
+        font-size: 16px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.contact_us {  
+        font-size: 16px;
+    }
+
+    .group-11 {
+        width: 171px;
+        height: 60px;
+    }
 }
 
+/*=========================== page ===========================*/
+.content {
+    z-index: 1;
+    margin-left: 10.9vw;
+    margin-right: 6vw;
+}
+
+@media(max-width: 768px) {
+    .content {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}
+
+/*========================== Landing =========================*/
 .group-2 {
     object-fit: contain;
 }
 
-.square {
-    width: 12px;
-    height: 12px;
-    opacity: 0.17;
-    background-color: #388af7;
+.bring-your-business {
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #2c2c2c;
 }
+
+.tradeChat-is-a-busin {
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.8px;
+    color: #000000;
+    margin-top: 2.1vw;
+}
+
+.get-started-button {
+    margin-top: 2.1vw;
+    font-size: 26.7px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.49px;
+    color: #ffffff;  
+    border-radius: 8.9px;
+    box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.26);
+    background-color: #7662d1;
+    width: 303px;
+    height: 79px;
+}
+
+.compatible-with {
+    opacity: 0.3;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.67px;
+    color: #000000;
+    margin-top: 2.8vw;
+}
+
+.group-6 {
+    width: 120px;
+    height: 39.8px;
+    object-fit: contain;
+    opacity: 0.3;
+}
+@media(max-width: 768px) {
+    .bring-your-business {
+        font-size: 40px;
+    }
+
+    .tradeChat-is-a-busin {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+
+    .get-started-button {
+        width: 250px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    .compatible-with {
+        margin-top: 28px;
+    }
+}
+
+/*====================== Increase your connectivity ================*/
