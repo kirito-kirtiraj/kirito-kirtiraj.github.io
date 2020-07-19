@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
+.gg {
+    height: 100vh;
+}
 /*======================= Body and background shapes ====================*/
 .tc_home {
     background-color: #ffffff;
@@ -91,6 +94,21 @@ nav {
     height: 81px;
     object-fit: contain;  
 }
+@media(max-width: 1366px) {
+
+    .navbar-light .navbar-nav .nav-link {  
+        font-size: 18px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.contact_us {  
+        font-size: 18px;
+    }
+
+    .group-11 {
+        width: 197px;
+        height: 70px;
+    }
+}
 
 @media(max-width: 768px) {
     nav {
@@ -109,26 +127,18 @@ nav {
     }
 
     .group-11 {
-        width: 171px;
+        width: 169px;
         height: 60px;
     }
 }
 
-/*=========================== page ===========================*/
-.content {
-    z-index: 1;
-    margin-left: 10.9vw;
-    margin-right: 6vw;
-}
-
-@media(max-width: 768px) {
-    .content {
-        margin-left: 1vw;
-        margin-right: 1vw;
-    }
-}
-
 /*========================== Landing =========================*/
+.section-container {
+    z-index: 1;
+    padding-left: 10.9vw;
+    padding-right: 6vw;
+}
+
 .group-2 {
     object-fit: contain;
 }
@@ -188,7 +198,40 @@ nav {
     object-fit: contain;
     opacity: 0.3;
 }
+
+@media(max-width: 1366px) {
+
+    .bring-your-business {
+        font-size: 60px;
+    }
+
+    .tradeChat-is-a-busin {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .get-started-button {
+        width: 276px;
+        height: 70px;
+        font-size: 22px;
+    }
+
+    .compatible-with {
+        margin-top: 28px;
+    }
+}
+
 @media(max-width: 768px) {
+    .section-container {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .landing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .bring-your-business {
         font-size: 40px;
     }
@@ -210,3 +253,390 @@ nav {
 }
 
 /*====================== Increase your connectivity ================*/
+.section-title {
+    font-size: 66px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.section-paragraph {
+    opacity: 0.8;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.group-12 {
+    width: 67px;
+    height: 67px;
+    object-fit: contain;
+}
+
+.feature-heading {
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 7px;
+    margin-bottom: 9px;
+}
+
+.feature-description {
+    opacity: 0.7;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    border-right: solid 3px #7662d1;
+    border-bottom: solid 3px #7662d1;
+    margin-bottom: 1px;
+}
+
+.learn-more {
+    font-family: unset;
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7662d1;
+}
+
+.learn-more:hover {
+    color: #3c2a8d;
+    text-decoration: none;
+}
+
+@media(max-width: 1366px) {
+    .section-title {
+        font-size: 50px;
+    }
+
+    .section-paragraph {
+        font-size: 24px;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    .group-12 {
+        width: 58px;
+        height: 58px;
+    }
+
+    .feature-heading {
+        font-size: 21px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+
+
+    .feature-description {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+
+    .learn-more {
+        font-size: 18px;
+    }
+
+    .arrow {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+@media(max-width: 768px) {
+    .section-title {
+        font-size: 33px;
+    }
+
+    .section-paragraph {
+        font-size: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .group-12 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .feature-heading {
+        font-size: 18px;
+        margin-top: 3px;
+        margin-bottom: 4px;
+    }
+
+
+    .feature-description {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .learn-more {
+        font-size: 16px;
+    }
+
+    .arrow {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+/*=================== Explore supplier management ====================*/
+.group-9 {
+    object-fit: contain;
+}
+
+.easy {
+    background-color: #f7faff;
+}
+
+/*=================== Chat Integration ===============================*/
+.tick-2 {
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+}
+
+.chat {
+    opacity: 0.8;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+@media(max-width: 1366px) {
+    .tick-2 {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+    }
+    
+    .chat {
+        font-size: 24px;
+    }
+
+    .chat-img {
+        margin-top: 60px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .tick-2 {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+    }
+    
+    .chat {
+        font-size: 20px;
+    }
+
+    .chat-img {
+        margin-top: 20px;
+    }
+}
+
+/*=================== Testimonials ======================*/
+
+.mask {
+    background-color: #7662d1;
+    z-index: 1;
+}
+
+.testimonial-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.87px;
+    color: #ffffff;
+}
+
+.review {
+    font-size: 53px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.user-row {
+    width: 75%;
+    margin-left: 60px;
+}
+
+.oval-avatar {
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+}
+
+.reviewer-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.reviewer-prof {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.next-review-button {
+    width: 92px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #999393;
+}
+
+.next-review-button:hover {
+    cursor: pointer;
+}
+
+.review-1 {
+    display: block;
+}
+
+.review-2,
+.review-3 {
+    display: none;
+} 
+
+.review-button-1 {
+    background-color: #ffffff;
+}
+
+.oval-design-1 {
+    width: 0;
+    height: 0;
+    border-left: 20.83vw solid transparent;
+    border-right: 20.83vw solid transparent;
+    border-bottom: 15.62vw solid #7bdefb;
+    transform: rotate(-37deg);
+    position: relative;
+    top: -4.06vw;
+    left: -320px;
+    opacity: 0.24;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+}
+
+.oval-design-2 {
+    width: 0;
+    height: 0;
+    border-left: 20.83vw solid transparent;
+    border-right: 20.83vw solid transparent;
+    border-bottom: 15.62vw solid #7bdefb;
+    transform: rotate(143deg);
+    position: relative;
+    bottom: -4.06vw;
+    right: 180px;
+    opacity: 0.24;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+}
+
+@media(max-width: 1919px) {
+    .oval-design-1,
+    .oval-design-2 {
+        display: none;
+    }
+}
+
+@media(max-width: 1366px) {
+    .testimonial-title {
+        font-size: 18px;
+    }
+
+    .review {
+        font-size: 40px;
+    }
+
+    .user-row {
+        margin-left: 25px;
+    }
+
+    .oval-avatar {
+        width: 62px;
+        height: 62px;
+    }
+
+    .reviewer-name {
+        font-size: 22px;
+    }
+
+    .reviewer-prof {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 768px) {
+    .testimonial-title {
+        font-size: 16px;
+    }
+
+    .review {
+        font-size: 28px;
+    }
+
+    .user-row {
+        margin-left: 0;
+    }
+
+    .reviewer-name {
+        font-size: 20px;
+    }
+
+    .reviewer-prof {
+        font-size: 16px;
+    }
+}
