@@ -592,6 +592,13 @@ nav {
     }
 }
 
+@media(min-width: 1921px) {
+    .oval-design-1,
+    .oval-design-2 {
+        display: none;
+    }
+}
+
 @media(max-width: 1366px) {
     .testimonial-title {
         font-size: 18px;
@@ -638,5 +645,68 @@ nav {
 
     .reviewer-prof {
         font-size: 16px;
+    }
+}
+
+/*===================== Get in touch =====================*/
+.bitmap {
+    /* width: 325px; */
+    width: 16.92vw;
+    /* height: 98px; */
+    height: 5.1vw;
+    object-fit: contain;
+}
+
+.smartphone-img {
+    object-fit: contain;
+}
+
+.form-label {
+    opacity: 0.34;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    color: #000000; 
+}
+
+.form-group {
+    margin-right: 20%;
+}
+
+.form-input {
+    background-color: #f7f7f7;
+    height: 76px;
+}
+
+textarea.form-control.form-textarea {
+    height: 183px;
+}
+
+@media(max-width: 768px){
+    .form-group {
+        margin-right: unset;
+    }
+
+    .form-input {
+        height: 38px;
+    }
+
+    .form-label {
+        font-size: 24px;
+    }
+
+    textarea.form-control.form-textarea {
+        height: 100px;
+    }
+
+    .bitmap {
+        /* width: 325px; */
+        width: 35vw;
+        /* height: 98px; */
+        height: 12vw;
+        object-fit: contain;
     }
 }

@@ -94,8 +94,8 @@
                 </ul>
             </div>
             <div class="collapse navbar-collapse collapsibleNavId">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 row d-flex align-content-center">
-                    <li class="nav-item contact_us ml-2 mx-md-4 px-md-5 py-2 text-center col-6 col-md-12">
+                <ul class="navbar-nav ml-2 ml-sm-3 ml-md-4 ml-lg-auto mt-2 mt-lg-0 row d-flex align-items-center">
+                    <li class="nav-item contact_us mx-lg-4 px-lg-5 py-2 text-center col-6 col-lg-12">
                         <a class="nav-link contact_us mx-auto" href="#contact">CONTACT US</a>
                     </li>
                 </ul>
@@ -231,8 +231,49 @@
                 <div class="oval-design-2"></div>
             </div>
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <!-- Get in touch with us -->
+        <div id="contact" class="row mt-5 pt-3 pt-md-5 section-container justify-content-between">
+            <div class="col-md-6 ml-0 mt-md-5 mt-md-1 pb-md-3 mt-md-3 pl-md-4">
+                <h2 class="section-title text-center text-md-left">Get in touch with us</h2>
+                <p class="section-paragraph m-md-0 my-3 my-md-4 mr-md-5 px-3 px-md-0 pr-md-2 text-center text-md-left">For any kind of query, feel free to drop a message</p>
+                <form>
+                    <div class="form-group text-center text-md-left">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-control form-input">
+                    </div>
+                    <div class="form-group text-center text-md-left">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" id="email" class="form-control form-input">
+                    </div>
+                    <div class="form-group text-center text-md-left">
+                        <label for="help-message" class="form-label">How can we help?</label>
+                        <textarea id="help-message" class="form-control form-input form-textarea"></textarea>
+                    </div>
+                </form>
+                <div class="text-center text-md-left pb-md-5 mb-md-5">
+                    <button type="button" class="btn btn-lg get-started-button mt-3 mt-md-5">GET STARTED</button>
+                </div>
+            </div>
+
+            <div id="download" class="col-md-6 mt-0 mt-md-1 pt-0 pt-md-3 d-flex flex-column align-items-center justify-content-end">
+                <div class="row my-5 pt-5 pb-2">
+                    <div class="col-6">
+                        <a href="#"><img src="images/bitmap.jpg" srcset="images/bitmap@2x.jpg 2x, images/bitmap@3x.jpg 3x" class="bitmap"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#"><img src="images/bitmap-copy.jpg" srcset="images/bitmap-copy@2x.jpg 2x, images/bitmap-copy@3x.jpg 3x" class="bitmap"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center mt-auto mb-0">
+                        <img class="smartphone img-fluid" src="images/group-2-copy-4.png" srcset="images/group-2-copy-4@2x.png 2x, images/group-2-copy-4@3x.png 3x">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
