@@ -461,7 +461,6 @@ nav {
 .easy {
     background-color: #f7faff;
 }
-
 /*=================== Chat Integration ===============================*/
 .tick-2 {
     width: 27px;
@@ -500,7 +499,6 @@ nav {
     .tick-2 {
         width: 18px;
         height: 18px;
-        object-fit: contain;
     }
     
     .chat {
