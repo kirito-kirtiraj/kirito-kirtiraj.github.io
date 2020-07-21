@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body class="tc_home">
+    <body id="home" class="tc_home">
         <!-- Background Shapes -->
         <div class="oval"></div>
         <div class="rectangle d-none d-md-block"></div>
@@ -252,11 +252,11 @@
                     </div>
                 </form>
                 <div class="text-center text-md-left pb-md-5 mb-md-5">
-                    <button type="button" class="btn btn-lg get-started-button mt-3 mt-md-5">GET STARTED</button>
+                    <button type="button" class="btn btn-lg get-started-button mt-3 mt-md-5">SUBMIT</button>
                 </div>
             </div>
 
-            <div id="download" class="col-md-6 mt-0 mt-md-1 pt-0 pt-md-3 d-flex flex-column align-items-center justify-content-end">
+            <div id="download" class="col-md-6 mt-0 mt-md-1 pt-0 pt-md-3 d-flex flex-column align-items-center justify-content-between">
                 <div class="row my-5 pt-5 pb-2">
                     <div class="col-6">
                         <a href="#"><img src="images/bitmap.jpg" srcset="images/bitmap@2x.jpg 2x, images/bitmap@3x.jpg 3x" class="bitmap"></a>
@@ -273,6 +273,71 @@
             </div>
         </div>
         
+        <!-- Footer -->
+        <footer>
+            <div class="row section-container justify-content-between">
+                <div class="col-md-2 mt-5">
+                    <p class="footer-title text-center text-md-left">NAVIGATION</p>
+                    <a class="footer-link d-block text-center text-md-left" href="#home">Home</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#features">Features</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#testimonials">Testimonials</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#download">Download</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#contact">Contact Us</a>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <p class="footer-title text-center text-md-left">COMPANY</p>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Why Tradechat</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">About Us</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Press</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Partners</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Careers</a>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <p class="footer-title text-center text-md-left">RESOURCES</p>
+                    <a class="footer-link d-block text-center text-md-left" href="#">API Docs</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Status</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Blog</a>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <p class="footer-title text-center text-md-left">LEGAL</p>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Privacy Policy</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">EU Privacy Policy</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Terms of Use</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Privacy Shield Policy</a>
+                    <a class="footer-link d-block text-center text-md-left" href="#">Cookie Policy</a>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <p class="footer-title text-center text-md-left">SUPPORT</p>
+                    <p class="footer-link d-block text-center text-md-left">Contact</p>
+                    <p class="contact-number d-block text-center text-md-left">+91 847282013</p>
+                    <p class="d-block text-center text-md-left">Monday - Friday</p>
+                    <p class="d-block text-center text-md-left">9 AM - 6 PM IST</p>
+                    <p class="d-block text-center text-md-left">Talk to us on <a class="footer-link support-links" href="#">Live Chat</a></p>
+                    <p class="d-block text-center text-md-left">Visit our <a class="footer-link support-links" href="#">Help Desk</a></p>
+                </div>
+            </div>
+            <div id="footer-icons-section" class="row mt-4 section-container justify-content-between">
+                <div class="col-md-2 d-flex flex-column">
+                    <img class="group-11" src="images/group-20.png" srcset="images/group-20@2x.png 2x, images/group-20@3x.png 3x">
+                </div>
+                <div class="col-md-auto d-flex flex-column my-4 my-md-3">
+                    <form class="form-inline subscribe-box row justify-content-between pr-2">
+                        <input class="form-subscribe col-8" type="email" placeholder="Enter email address" />
+                        <button class="btn btn-outline-primary my-2 col-4" type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+                <div class="col-md-2 d-flex align-items-center">
+                    <img class="social-icon" src="images/fb.png" srcset="images/fb@2x.png 2x, images/fb@3x.png 3x">
+                    <img class="social-icon ml-5" src="images/twitter.png" srcset="images/twitter@2x.png 2x, images/twitter@3x.png 3x">
+                    <img class="social-icon ml-5" src="images/insta.png" srcset="images/insta@2x.png 2x, images/insta@3x.png 3x">
+                </div>
+            </div>
+            <hr class="mb-0" />
+            <div class="d-flex justify-content-center">
+                <p class="my-4 p-0">&copy; 2020 Tradechat. All Rights Reserved.</p>
+            </div>
+        </footer>
+
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
