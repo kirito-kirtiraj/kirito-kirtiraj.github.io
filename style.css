@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
-.gg {
-    height: 100vh;
-}
 /*======================= Body and background shapes ====================*/
 .tc_home {
     background-color: #ffffff;
@@ -107,6 +104,16 @@ nav {
     .group-11 {
         width: 197px;
         height: 70px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link {  
+        font-size: 17px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.contact_us {  
+        font-size: 17px;
     }
 }
 
@@ -221,6 +228,22 @@ nav {
     }
 }
 
+@media(max-width: 1024px) {
+    .bring-your-business {
+        font-size: 50px;
+    }
+
+    .tradeChat-is-a-busin {
+        font-size: 21px;
+    }
+
+    .get-started-button {
+        width: 263px;
+        height: 65px;
+        font-size: 21px;
+    }
+}
+
 @media(max-width: 768px) {
     .section-container {
         padding-left: unset;
@@ -238,13 +261,11 @@ nav {
 
     .tradeChat-is-a-busin {
         font-size: 20px;
-        margin-top: 12px;
     }
 
     .get-started-button {
         width: 250px;
         height: 60px;
-        font-size: 22px;
     }
 
     .compatible-with {
@@ -373,6 +394,28 @@ nav {
     }
 }
 
+@media(max-width: 1024px) {
+    .section-title {
+        font-size: 42px;
+    }
+
+    .section-paragraph {
+        font-size: 22px;
+    }
+
+    .feature-heading {
+        font-size: 20px;
+    }
+
+    .feature-description {
+        font-size: 17px;
+    }
+
+    .learn-more {
+        font-size: 17px;
+    }
+}
+
 @media(max-width: 768px) {
     .section-title {
         font-size: 33px;
@@ -395,7 +438,6 @@ nav {
         margin-bottom: 4px;
     }
 
-
     .feature-description {
         font-size: 16px;
         margin-bottom: 4px;
@@ -411,7 +453,7 @@ nav {
     }
 }
 
-/*=================== Explore supplier management ====================*/
+/*=================== Easy supplier management ====================*/
 .group-9 {
     object-fit: contain;
 }
@@ -454,7 +496,7 @@ nav {
     }
 }
 
-@media(max-width: 1366px) {
+@media(max-width: 1024px) {
     .tick-2 {
         width: 18px;
         height: 18px;
@@ -650,9 +692,7 @@ nav {
 
 /*===================== Get in touch =====================*/
 .bitmap {
-    /* width: 325px; */
     width: 16.92vw;
-    /* height: 98px; */
     height: 5.1vw;
     object-fit: contain;
 }
@@ -703,9 +743,7 @@ textarea.form-control.form-textarea {
     }
 
     .bitmap {
-        /* width: 325px; */
         width: 35vw;
-        /* height: 98px; */
         height: 12vw;
         object-fit: contain;
     }
@@ -790,7 +828,7 @@ hr {
     border: solid 1.3px #474063;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1200px) {
 
     footer {
         font-size: 14px;
